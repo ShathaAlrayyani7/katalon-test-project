@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Wallet_sc-hmdomO gBePXe</name>
+   <tag></tag>
+   <elementGuidId>ef770d76-70dd-4233-a543-2fedb569608f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.sc-hmdomO.gBePXe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='PiggyBank']/h4/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Pure Coin 0 Rewards Bank&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>56158ab7-9794-44d9-ac44-bc0589b40b4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Pure Coin</value>
+      <webElementGuid>f56df142-a17e-4cc3-9ea2-8c7c5b05f64b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/images/9f07f4b7d47387473cd8.png</value>
+      <webElementGuid>be7a5054-9243-431e-b04a-44e6059125b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-hmdomO gBePXe</value>
+      <webElementGuid>02fd2c2d-fbad-459d-a57a-2d9fb629d4e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;PiggyBank&quot;)/h4[@class=&quot;sc-gFqAkR lssH&quot;]/a[@class=&quot;sc-dsAker eLPtcM&quot;]/div[@class=&quot;sc-fHjqPf gaMeLg&quot;]/img[@class=&quot;sc-hmdomO gBePXe&quot;]</value>
+      <webElementGuid>6eaa7fe8-5c6f-4032-ad22-09c41e218ed0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='PiggyBank']/h4/a/div/img</value>
+      <webElementGuid>712987be-793e-4cc4-9d33-7924cd122211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Pure Coin']</value>
+      <webElementGuid>b0d3be8d-a09b-4ae6-b79d-3e9d312dfebe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>349a22f2-cb20-4c21-babd-67164fb3c065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Pure Coin' and @src = '/static/images/9f07f4b7d47387473cd8.png']</value>
+      <webElementGuid>f9579e52-eb0d-41c3-9485-0535096e9d9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Wallet Balance</name>
+   <tag></tag>
+   <elementGuidId>9e23815c-6407-4c99-b6b6-2ec7f88616a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.sc-eldPxv.cnaVXI</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@type='h2']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Wallet Balance&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>d1778366-bad8-4a16-9260-6ed1f737d238</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-eldPxv cnaVXI</value>
+      <webElementGuid>9cb0aab2-bd71-4192-8132-b73c6fdf8b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>35dde49c-1786-402e-87ad-d89a62ac5b36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Wallet Balance</value>
+      <webElementGuid>2e1d58a0-6440-465a-97f2-2e7334d92d99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gjYfiE cfzmpS&quot;]/main[@class=&quot;sc-hQQMGV bRntZB&quot;]/div[@class=&quot;sc-jaOLEC dCWMzC&quot;]/div[@class=&quot;sc-kqGoIF fHNFyl&quot;]/div[@class=&quot;sc-dxcDKg jKNfjV&quot;]/div[@class=&quot;sc-dNsVcS dAeaJV&quot;]/h2[@class=&quot;sc-eldPxv cnaVXI&quot;]</value>
+      <webElementGuid>97d45861-9383-4960-8a36-77fd206999f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@type='h2']</value>
+      <webElementGuid>a92b79bc-af79-49c7-9c65-f5b22f693ce2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/div/div/h2</value>
+      <webElementGuid>cb4c7ddb-286d-46a4-83d5-49e6f2b2a9ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dark Mode'])[1]/following::h2[1]</value>
+      <webElementGuid>d19c300f-e9a6-4583-a062-b5545c8fdbd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wallet'])[1]/following::h2[1]</value>
+      <webElementGuid>e2f546b5-bb7d-4aa6-92e7-e9cf0c58be74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,000,000'])[1]/preceding::h2[1]</value>
+      <webElementGuid>2843b217-49dd-442a-b9db-0a891a2473e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Credits'])[1]/preceding::h2[1]</value>
+      <webElementGuid>2b6804ed-9b11-4d8d-8729-52674705c7f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Wallet Balance']/parent::*</value>
+      <webElementGuid>e15a6247-cf8e-4185-a9be-76940bd1389f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>edb44f0a-8846-48a2-8a16-5dbbc8637f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@type = 'h2' and (text() = 'Wallet Balance' or . = 'Wallet Balance')]</value>
+      <webElementGuid>d8464784-1dde-4b63-b5dc-53adce89d25d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

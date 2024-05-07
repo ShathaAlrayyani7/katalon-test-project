@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Click to Spin</name>
+   <tag></tag>
+   <elementGuidId>e146381f-489b-42e3-bb23-233eeeec7d02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.sc-dcJsrY.iLimiy.sc-kNvTSQ.jWqIjg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Click to Spin&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3b7b21e4-2a26-4586-9bce-a49df126f71e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a25516b4-ee1c-4c46-96a1-31b3d40caaac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-dcJsrY iLimiy sc-kNvTSQ jWqIjg</value>
+      <webElementGuid>8b94f36c-8603-4bee-b5c1-7ff49fdb9c2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Click to Spin</value>
+      <webElementGuid>1ff2b44e-6276-4925-909c-57088d429ee2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gjYfiE cfzmpS&quot;]/main[@class=&quot;sc-hQQMGV bRntZB&quot;]/div[@class=&quot;sc-jaOLEC dCWMzC&quot;]/div[@class=&quot;sc-kqGoIF fHNFyl&quot;]/div[@class=&quot;sc-dxcDKg jKNfjV&quot;]/div[@class=&quot;sc-cIAbwb fQPwIh&quot;]/button[@class=&quot;sc-dcJsrY iLimiy sc-kNvTSQ jWqIjg&quot;]</value>
+      <webElementGuid>43f26438-ffec-4ce5-9896-ab173f55689d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>b54df6d5-7cc2-4e0e-93d9-2d51f8a003b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/div/div[2]/button</value>
+      <webElementGuid>ef428aa2-3a4b-4e91-9e50-ad5410560428</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[1]/following::button[1]</value>
+      <webElementGuid>1aec4e38-e9f0-4fb8-b580-54a740bdf1a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank Balance'])[1]/following::button[1]</value>
+      <webElementGuid>d32199cc-7e9a-4e1d-9300-b96cf5c2c8e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Up-Coming Giveaways'])[1]/preceding::button[1]</value>
+      <webElementGuid>c6ee2ef0-8ca6-4f59-b910-ae38580fa820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stay tuned for exciting giveaways coming soon'])[1]/preceding::button[1]</value>
+      <webElementGuid>bbaf81ce-150d-4b71-9139-3d7c7ed2cfe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Click to Spin']/parent::*</value>
+      <webElementGuid>278e780d-cd8a-4325-a9fd-14b507c3606b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>ec68dc1b-1b1a-41bc-ab0e-afaa3f1fb230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Click to Spin' or . = 'Click to Spin')]</value>
+      <webElementGuid>a7a5f413-50d7-46f8-8634-18be18fdfd9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
