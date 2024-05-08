@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>It should go to stringMethods and try the first one</description>
+   <name>w3schoolTesting</name>
+   <tag>MultiBrowsers</tag>
+   <comment></comment>
+   <testCaseGuid>2d3a1492-cb69-4706-927b-79babf0ab185</testCaseGuid>
+</TestCaseEntity>

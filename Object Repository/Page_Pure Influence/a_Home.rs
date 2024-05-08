@@ -6,12 +6,12 @@
    <elementGuidId>fa02fad2-aef1-4cdd-b2eb-839379926ef6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.sc-dsAker.eLPtcM</value>
+         <key>XPATH</key>
+         <value>//div[@id='Home']/descendant::a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='Home']/h4/a</value>
+         <key>CSS</key>
+         <value>a.sc-dsAker.eLPtcM</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9be6d9a1-d998-41b8-a65e-5b5d52e8614d</webElementGuid>
+      <webElementGuid>3962fa49-a84c-4afe-a8c9-dc451f3e6de0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-dsAker eLPtcM</value>
-      <webElementGuid>52adac6b-676f-47dc-8594-8e43e8a4701d</webElementGuid>
+      <webElementGuid>918a37fa-94a0-4a91-8d70-cb1c6ad713f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/</value>
-      <webElementGuid>69bf1041-a983-4e64-88ec-9cf438c1b028</webElementGuid>
+      <webElementGuid>690a8e7b-1ec2-4db6-855c-9a93c75dfbb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Home</value>
-      <webElementGuid>dbe4b18f-32f2-4faa-b59f-053c6330a0b9</webElementGuid>
+      <webElementGuid>a7a66061-c840-4ea4-b0fd-f38e2d54454a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Home&quot;)/h4[@class=&quot;sc-gFqAkR lssH&quot;]/a[@class=&quot;sc-dsAker eLPtcM&quot;]</value>
-      <webElementGuid>15a64e46-0363-4d3a-8b7e-d937c1913c22</webElementGuid>
+      <webElementGuid>c7df51c0-fa02-4c91-b916-ebd6c0602260</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='Home']/h4/a</value>
-      <webElementGuid>18b46a04-01a1-4edb-ad7c-1585258223df</webElementGuid>
+      <webElementGuid>5b61b05f-dda4-469b-a73c-a761d9ea9f05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Home')]</value>
-      <webElementGuid>74e56494-aecc-4d12-9d93-6c502c874498</webElementGuid>
+      <webElementGuid>b926555d-f5c2-49f6-beea-f05478b63088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Collab'])[1]/preceding::a[1]</value>
-      <webElementGuid>68ee195f-0728-4855-82f8-88a0d6bf10c5</webElementGuid>
+      <webElementGuid>5a74c723-a0c4-4433-bb1d-42aea2590276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Marketplace'])[1]/preceding::a[2]</value>
-      <webElementGuid>92c06e22-0a8b-48e7-8ebb-a0e3026b0e47</webElementGuid>
+      <webElementGuid>82c201ca-ee1c-4c90-8bf3-2f97b44c807e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
-      <webElementGuid>a552432d-4afe-463b-8e36-77e8c81484d6</webElementGuid>
+      <webElementGuid>36b03d93-efc4-494c-aab5-07e283070e28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/')]</value>
-      <webElementGuid>c7992ab8-51b7-42fa-9827-59c2bcde31f1</webElementGuid>
+      <webElementGuid>d1812fab-7dbb-4856-b87f-3ca6b4dc9852</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>6902436f-081a-441a-b9f6-9970d32e3e1d</webElementGuid>
+      <webElementGuid>deedea9a-82a7-4c82-a299-54a8e679249b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/' and (text() = 'Home' or . = 'Home')]</value>
-      <webElementGuid>c021ab94-879c-4088-93dd-c6096b8ed5c7</webElementGuid>
+      <webElementGuid>497a56bc-1f98-4e46-99ad-2fd152da4012</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
