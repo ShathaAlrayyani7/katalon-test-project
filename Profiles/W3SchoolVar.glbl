@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.w3schools.com/js/'</initValue>
-      <name>baseURL</name>
+      <name>w3SchoolBaseURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

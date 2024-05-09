@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>focusTesting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>363260c6-21f2-4a32-b6df-d4a7007d0184</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e2c4cb9e-6f46-4344-a6a0-57a6c002cb30</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Drag and drop testing'</defaultValue>
+      <description></description>
+      <id>e2c4cb9e-6f46-4344-a6a0-57a6c002cb30</id>
+      <masked>false</masked>
+      <name>TelerikSearchText</name>
+   </variable>
+</TestCaseEntity>

@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demos.telerik.com/aspnet-ajax/dock/examples/setdraghandleclientside/defaultcs.aspx'</initValue>
+      <name>TelerikBaseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>TelerikTimeOut</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

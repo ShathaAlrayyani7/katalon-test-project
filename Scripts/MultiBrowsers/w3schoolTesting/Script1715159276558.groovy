@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
+CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.w3SchoolBaseURL, GlobalVariable.timeOut)
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'), GlobalVariable.timeOut)
 

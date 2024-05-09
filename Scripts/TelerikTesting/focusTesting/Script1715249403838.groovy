@@ -3,12 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import java.awt.RenderingHints.Key
-import java.util.concurrent.ConcurrentHashMap.KeySetView
-
-import org.openqa.selenium.Keys
-
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -21,33 +15,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.NoonBaseUrl, GlobalVariable.timeOut)
+WebUI.openBrowser(GlobalVariable.TelerikBaseURL)
 
-NoonSearchBar = findTestObject('Object Repository/NoonElements/NoonSearchBar')
-addFirstElementToCart = findTestObject('Object Repository/NoonElements/addFirstElementToCart')
-NoonItemText = findTestObject('Object Repository/NoonElements/NoonCartItemText')
-NoonCartBtn = findTestObject('Object Repository/NoonElements/NoonCartBtn')
+WebUI.waitForPageLoad(GlobalVariable.TelerikTimeOut)
 
-WebUI.waitForElementPresent(NoonSearchBar, GlobalVariable.timeOut)
+WebUI.maximizeWindow()
 
-WebUI.sendKeys(NoonSearchBar, Keys.chord(GlobalVariable.searchItem, Keys.ENTER))
+WebUI.focus(findTestObject('Object Repository/TelerikElements/TelerikSearchInput'))
 
-WebUI.waitForElementClickable(addFirstElementToCart, GlobalVariable.timeOut)
-
-WebUI.click(addFirstElementToCart)
-
-WebUI.click(NoonCartBtn)
-
-WebUI.waitForPageLoad(GlobalVariable.timeOut)
-
-WebUI.waitForElementVisible(NoonItemText, GlobalVariable.timeOut)
-
-actualValue = WebUI.getText(NoonItemText)
-
-WebUI.verifyMatch(actualValue, expectedValue, false)
+WebUI.sendKeys(findTestObject('Object Repository/TelerikElements/TelerikSearchInput'), Keys.chord(TelerikSearchText, Keys.ENTER))
 
 WebUI.delay(2)
 
 WebUI.closeBrowser()
-
