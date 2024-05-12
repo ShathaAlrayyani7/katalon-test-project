@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>It should search and add item to the cart.</description>
+   <name>noonTestingSearch</name>
+   <tag>NoonTesting</tag>
+   <comment></comment>
+   <testCaseGuid>50930372-18fa-482d-be4b-06faf74b1348</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e1d192a-0ccc-4ccb-b2cb-46d4cf1063a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'جي بي إل سماعات Tune 510Bt اللاسلكية فوق الاذن - Pure Bass - بطارية 40H - شحن سريع - USB سريع من النوع C - قابلة للطي باللون الأسود أسود'</defaultValue>
+      <description></description>
+      <id>3e1d192a-0ccc-4ccb-b2cb-46d4cf1063a2</id>
+      <masked>false</masked>
+      <name>expectedValue</name>
+   </variable>
+</TestCaseEntity>

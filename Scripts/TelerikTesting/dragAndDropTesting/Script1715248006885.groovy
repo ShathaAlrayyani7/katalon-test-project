@@ -17,30 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.w3SchoolBaseURL, GlobalVariable.timeOut)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'), GlobalVariable.timeOut)
+WebUI.openBrowser(GlobalVariable.TelerikBaseURL)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'))
+WebUI.waitForPageLoad(GlobalVariable.TelerikTimeOut)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringLengthLink'))
+WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
+telerikRadDock2 = findTestObject('Object Repository/TelerikElements/TelerikRadDock2')
+telerikRadDock4 = findTestObject('Object Repository/TelerikElements/TelerikRadDock4')
+telerikRadDockZone3 = findTestObject('Object Repository/TelerikElements/TelerikRadDockZone3')
+telerikRadDockZone2 = findTestObject('Object Repository/TelerikElements/TelerikRadDockZone2')
+telerikRadDockZone1 = findTestObject('Object Repository/TelerikElements/TelerikRadDockZone1')
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/TryItBtn'))
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/RunBtn'), GlobalVariable.timeOut)
-
-WebUI.click(findTestObject('Object Repository/W3school_Elements/HomeBtn'))
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
-
-WebUI.closeWindowIndex(1)
-
+WebUI.dragAndDropToObject(telerikRadDock2, telerikRadDockZone3)
 WebUI.delay(2)
-
+WebUI.dragAndDropToObject(telerikRadDock4, telerikRadDockZone1)
+WebUI.delay(2)
 WebUI.closeBrowser()

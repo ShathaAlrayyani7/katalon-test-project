@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>It should ba able to drag and drop element in the website.</description>
+   <name>dragAndDropTesting</name>
+   <tag>Telerik</tag>
+   <comment></comment>
+   <testCaseGuid>156a8bf2-2765-4581-9a9d-b1e54230e1d0</testCaseGuid>
+</TestCaseEntity>

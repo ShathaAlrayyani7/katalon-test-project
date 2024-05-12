@@ -3,6 +3,12 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import java.awt.RenderingHints.Key
+import java.util.concurrent.ConcurrentHashMap.KeySetView
+
+import org.openqa.selenium.Keys
+
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,32 +21,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.w3SchoolBaseURL, GlobalVariable.timeOut)
+CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.NoonBaseUrl, GlobalVariable.timeOut)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'), GlobalVariable.timeOut)
+NoonSearchBar = findTestObject('Object Repository/NoonElements/NoonSearchBar')
+addFirstElementToCart = findTestObject('Object Repository/NoonElements/addFirstElementToCart')
+NoonItemText = findTestObject('Object Repository/NoonElements/NoonCartItemText')
+NoonCartBtn = findTestObject('Object Repository/NoonElements/NoonCartBtn')
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'))
+WebUI.waitForElementPresent(NoonSearchBar, GlobalVariable.timeOut)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringLengthLink'))
+WebUI.sendKeys(NoonSearchBar, Keys.chord(GlobalVariable.searchItem, Keys.ENTER))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
+WebUI.waitForElementClickable(addFirstElementToCart, GlobalVariable.timeOut)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/TryItBtn'))
+WebUI.click(addFirstElementToCart)
 
-WebUI.switchToWindowIndex(1)
+WebUI.click(NoonCartBtn)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/RunBtn'), GlobalVariable.timeOut)
+WebUI.waitForPageLoad(GlobalVariable.timeOut)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/HomeBtn'))
+WebUI.waitForElementVisible(NoonItemText, GlobalVariable.timeOut)
 
-WebUI.switchToWindowIndex(0)
+actualValue = WebUI.getText(NoonItemText)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
-
-WebUI.closeWindowIndex(1)
+WebUI.verifyMatch(actualValue, expectedValue, false)
 
 WebUI.delay(2)
 
 WebUI.closeBrowser()
+

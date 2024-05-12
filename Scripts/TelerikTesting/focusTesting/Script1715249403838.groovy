@@ -17,29 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'navigate.NavigateToURL.openBrowser'(GlobalVariable.w3SchoolBaseURL, GlobalVariable.timeOut)
+WebUI.openBrowser(GlobalVariable.TelerikBaseURL)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'), GlobalVariable.timeOut)
+WebUI.waitForPageLoad(GlobalVariable.TelerikTimeOut)
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringMethodsLink'))
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/W3school_Elements/StringLengthLink'))
+WebUI.focus(findTestObject('Object Repository/TelerikElements/TelerikSearchInput'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
-
-WebUI.click(findTestObject('Object Repository/W3school_Elements/TryItBtn'))
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/RunBtn'), GlobalVariable.timeOut)
-
-WebUI.click(findTestObject('Object Repository/W3school_Elements/HomeBtn'))
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/W3school_Elements/TryItBtn'), GlobalVariable.timeOut)
-
-WebUI.closeWindowIndex(1)
+WebUI.sendKeys(findTestObject('Object Repository/TelerikElements/TelerikSearchInput'), Keys.chord(TelerikSearchText, Keys.ENTER))
 
 WebUI.delay(2)
 
