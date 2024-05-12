@@ -33,14 +33,16 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\n\t * Open Browser\n\t * @param url of type String\n\t * @param timeOut of type number\n\t */"
         },
         {
           "name": "getCustomElement",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
